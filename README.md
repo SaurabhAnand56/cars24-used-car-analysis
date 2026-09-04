@@ -47,7 +47,7 @@ Since Cars24's listing pages are rendered client-side (React) and use a virtuali
 
 ## 📂 File Structure
 
-```text
+```
 cars24-used-car-analysis/
 │
 ├── src/
@@ -64,6 +64,7 @@ cars24-used-car-analysis/
 ├── LICENSE                        # MIT License
 ├── README.md                      # Project documentation
 └── .gitignore                     # Files ignored by Git
+```
 
 ## 🛠️ Tech Stack
 
