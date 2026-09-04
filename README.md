@@ -47,17 +47,23 @@ Since Cars24's listing pages are rendered client-side (React) and use a virtuali
 
 ## 📂 File Structure
 
-```
+```text
 cars24-used-car-analysis/
 │
-├── cars24_scraper.py             # Selenium + BeautifulSoup scraper for Cars24 listings
-├── cars24_listings.csv           # Raw scraped output
-├── cars24_eda.ipynb              # Full pipeline: understanding, cleaning, EDA, visualization, insights
-├── cars24_listings_cleaned.csv   # Cleaned, analysis-ready dataset
-├── requirements.txt              # Python dependencies
-├── LICENSE                       # MIT License
-└── README.md                     # Project documentation
-```
+├── src/
+│   └── cars24_scraper.py          # Selenium + BeautifulSoup scraper for Cars24 listings
+│
+├── data/
+│   ├── cars24_listings.csv        # Raw scraped dataset
+│   └── cars24_listings_cleaned.csv # Cleaned, analysis-ready dataset
+│
+├── notebooks/
+│   └── cars24_eda.ipynb           # Data cleaning, EDA, visualization & insights
+│
+├── requirements.txt               # Python dependencies
+├── LICENSE                        # MIT License
+├── README.md                      # Project documentation
+└── .gitignore                     # Files ignored by Git
 
 ## 🛠️ Tech Stack
 
